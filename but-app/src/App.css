@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+body{
+  
+font-family: 'Courier New', Courier, monospace;  
+
+}
+
+.main{
+  display: flex;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+  height:auto;
+  justify-items:center; 
+  flex-wrap: wrap;
+  border: 2px solid;
+  background-color: rgb(118, 143, 135);
+  box-shadow: 20px;
+}
+
+.flex{
+  display:flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.btn{
+  margin: 10px;
+  display: inline;
+  border-radius: 5px;
+  color: blueviolet;
+}
+
+.img{
+  width: 400px;
+  height: 400px;
+}
+ .foot{
+   margin-top: 0px;
+   margin-bottom: 10px;
+ }
+ .money{
+   padding-left: 20px;
+ }
+ .header{
+  margin: 0 auto;
+ }
